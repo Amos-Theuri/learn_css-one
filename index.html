@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet/one.css">
+    <title>Intro CSS</title>
+</head>
+
+<body>
+    <h1>Intro to CSS</h1>
+    <p class="sub-h one">Learn CSS with me</p>
+    <div id="content">
+        <h2 class="head">Awesome Dev learn</h2>
+        <h3 class="head">Selectors</h3>
+        <p class="sub-h">Used to pick an element to apply a style to</p>
+        <p>selectors are of different types</p>
+        <ul>
+            <li>universal selector</li>
+            <p>Selects all elements in the document *</p>
+            <li>Class selector</li>
+            <p>Class attribute is given to an element then in css a period(.) followed ny a case sensitive name of the
+                class
+                is given</p>
+            <p>An element can have multiple class names seperated by space</p>
+            <li>ID selectors</li>
+            <p>ID is a unique name that is assigned to only one element in the document.</p>
+            <p>The selector is #</p>
+            <li>Group selector</li>
+            <p>Selects two or more elements with different class names or none at all</p>
+            <p>select the elements seperating them with a comma eg h1, h2 { style: apllied;}</p>
+            <li>Chained selectors</li>
+            <p>select a specific element which shares an initial class name as other elemnts but different preceding
+                names</p>
+            <p>It will select only that eg .clssnme1.classnm2 { style:applied;}</p>
+            <p>Here you may have one or more elements with the class name clssnme1 but only those that also have
+                classnm2 will be selected</p>
+            <li>Descendant selector</li>
+            <p>selects a element in a nested section/ container by following the path specified by either id name or
+                class name, both can be applied at a time</p>
+            <p>Different from chained because the names should be seperated by a space eg #parent .child1 .child2</p>
+            <p>This will select element class child2 only if it is nested under element class child1 which is nested
+                under element with id parent</p>
+        </ul>
+        <figure id="pic"><img id="pic1" src="./images/kendrick.png" height="1536px" width="2752px" alt="a picture">
+            <figcaption id="kenny">Kendrick Lamar is G.O.A.T</figcaption>
+        </figure>
+    </div>
+</body>
+
+</html>

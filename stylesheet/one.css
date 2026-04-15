@@ -1,0 +1,42 @@
+* {
+	color: purple;
+}
+
+h1,
+h2 {
+	color: blue;
+}
+
+h3 {
+	color: crimson;
+}
+
+li {
+	font-weight: bold;
+}
+
+.sub-h.one {
+	color: brown;
+	font-size: 22px;
+	font-family: "Time New Roman", sans-serif;
+}
+
+#content .sub-h{
+	color: brown;
+}
+
+#content {
+	text-align: left;
+	background-color: pink;
+	border: 10px black;
+}
+
+#content #pic #pic1 {
+	width: 711px;
+	height: auto;
+}
+
+#kenny {
+	text-align: center;
+	font-size: 12px;
+}
